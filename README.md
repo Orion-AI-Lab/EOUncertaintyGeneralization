@@ -7,7 +7,7 @@
 
 ## Pretrained uncertainty checkpoints
 
-| Dataset     | ViT-Tiny Checkpoint | ViT-Small Checkpoint | ViT-Base Checkpoint | ViT-Large Checkpoint |
+| Dataset     | ViT-Tiny | ViT-Small | ViT-Base | ViT-Large |
 |------------|---------------------|----------------------|---------------------|----------------------|
 | BigEarthNet | [Download](https://www.dropbox.com/scl/fi/c6j6wa8po22eutyv2w0cd/vit_tiny.pth?rlkey=94u4xcnv1xme2ns93xe7fqor3&st=20uednd6&dl=0)       | [Download](https://www.dropbox.com/scl/fi/c1wswangof9ruk1ixnj74/vit_small.pth?rlkey=uql5vufnv1bmhk54l2n2lh9i7&st=10h4f3ru&dl=0)       | [Download](https://www.dropbox.com/scl/fi/1636ox2ns09c3om2hjfft/vit_base.pth?rlkey=luhgpsgcvzdb5jaspoa40kcjg&st=6dqocezu&dl=0)       | [Download](https://www.dropbox.com/scl/fi/dd2dfknz0ak023ylo99ge/vit_large.pth?rlkey=6pjh3xy1lktlp184y7p8k9zc6&st=zq1cs1po&dl=0)       |
 | BigEarthNet5 | [Download](https://www.dropbox.com/scl/fi/5ac5qxh0d9h36nsxezr4k/vit_tiny.pth?rlkey=owpr8lkwcrjle8be7kqqymiv9&st=r6r433w5&dl=0)       | [Download](https://www.dropbox.com/scl/fi/lbnn7foxsf6zlk3ul11y9/vit_small.pth?rlkey=zev1mf17dxxdbuy8g27vyjnch&st=orxeg4js&dl=0)       | [Download](https://www.dropbox.com/scl/fi/twb9oha66i5y7jkf7e192/vit_base.pth?rlkey=01obs6o1oleb48e57y03jzxgh&st=2ucuo7ao&dl=0)       | [Download](https://www.dropbox.com/scl/fi/3mh39ym276y0t13y4o826/vit_large.pth?rlkey=w9eez98we38qra7tmtg3402vv&st=g4tw4zy3&dl=0)       |
