@@ -15,6 +15,8 @@
 | BigEarthNet-MS | [Download](https://www.dropbox.com/scl/fi/kzasvy17okm5at9nahbw3/vit_tiny.pth?rlkey=mwhdcyzbmlqs0k6yi70u4yjov&st=ga64zvau&dl=0)       | [Download](https://www.dropbox.com/scl/fi/mvb2is3j6n1nrk7wt0xtz/vit_small.pth?rlkey=p1vuybfjertz9tqj39na7day5&st=lah70e45&dl=0)       | [Download](https://www.dropbox.com/scl/fi/pctt0og5ybazbu2fca3qi/vit_base.pth?rlkey=uhi7iui62xowftcrx8huqgesx&st=ka77wbc5&dl=0)       | [Download](https://www.dropbox.com/scl/fi/cxwbknfpeyirbe9k70yjf/vit_large.pth?rlkey=8zv1sfv10hnixsmftpe4jd5zr&st=1u2fooxk&dl=0)       |
 | Flair      | [Download](https://www.dropbox.com/scl/fi/pfzt2etyguns0u2z0bsyc/vit_tiny.pth?rlkey=hyp3g6w91vsm6i8uhhdc06thi&st=1nbhge22&dl=0)       | [Download](https://www.dropbox.com/scl/fi/mggofntujre6h1p1xewoz/vit_small.pth?rlkey=a5uqcxz2yktuvkz0soyu128kg&st=cp6k6vfo&dl=0)       | [Download](https://www.dropbox.com/scl/fi/mt9ht2jqbqmyahp417sbg/vit_base.pth?rlkey=ag8ml7siefnbikrucws4xzfe7&st=fnu61bv9&dl=0)       | [Download](https://www.dropbox.com/scl/fi/59r7wuh6s5bqth1oykno1/vit_large.pth?rlkey=cp3vi6elc2v4oahcc0ukkrobb&st=casw4cpz&dl=0)       |
 
+ImageNet pretrained models can be found in this [repo](https://github.com/mkirchhof/url).
+
 
 
 ## Citation
