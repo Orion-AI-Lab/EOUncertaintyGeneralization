@@ -2,8 +2,46 @@
 
 
 ## 📖 Table of Contents
+- [About](#about)
+- [Installation](#installation)
+- [Usage](#usage)
 - [Pretrained Uncertainty Checkpoints](#pretrained-uncertainty-checkpoints)
 - [Citation](#citation)
+
+## About
+
+This is the repository for the paper [On the Generalization of Representation Uncertainty in Earth Observation](https://arxiv.org/abs/2503.07082). It builds on and extends [Pretrained Visual Uncertainties](https://arxiv.org/abs/2402.16569), [GitHub repo](https://github.com/mkirchhof/url). 
+
+## Installation
+
+ `conda create env -f environment.yml`
+
+## Usage
+`main.py` is the main driver of the project, aggregating the options selected in configs, depending on the task: i.e
+      - Train uncertainties
+      - Inference
+      - Save features (caching)
+
+To initiate an experiment execute `python main.py`.
+
+The training/inference dataset can be selected by modifying the `configs/configs.json` `"dataset"` field.
+
+Training hyperparameters can be modified in `configs/train/train_configs.json` and inference options in `configs/inference/inference_configs.json`.
+
+Overal the configuration structure is defined as:
+```plaintext
+configs
+├── configs.json
+├── data
+│   ├── data_configs.json
+│   └── webdataset_configs.json
+├── inference
+│   └── inference_configs.json
+├── stats
+│   └── stats.json
+└── train
+    └── train_configs.json
+
 
 ## Pretrained uncertainty checkpoints
 
@@ -36,4 +74,3 @@ If you use our work, please cite:
       url={https://arxiv.org/abs/2503.07082}, 
 }
 ```
-
