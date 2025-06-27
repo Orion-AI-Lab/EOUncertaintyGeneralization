@@ -1,4 +1,4 @@
-### Code for the paper [On the Generalization of Representation Uncertainty in Earth Observation](https://arxiv.org/abs/2503.07082) (WIP)
+### Code for the paper [On the Generalization of Representation Uncertainty in Earth Observation](https://arxiv.org/abs/2503.07082) (ICCV 2025)
 
 
 ## 📖 Table of Contents
