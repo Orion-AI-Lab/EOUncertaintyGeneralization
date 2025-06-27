@@ -41,7 +41,7 @@ configs
 │   └── stats.json
 └── train
     └── train_configs.json
-
+```
 
 ## Pretrained uncertainty checkpoints
 
@@ -62,6 +62,7 @@ wget -O bigearthnet_vit_tiny.pth "https://www.dropbox.com/scl/fi/c6j6wa8po22euty
 
 
 ## Citation
+
 If you use our work, please cite:
 ```
 @misc{kondylatos2025generalizationrepresentationuncertaintyearth,
