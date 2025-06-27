@@ -12,6 +12,8 @@
 
 This is the repository for the paper [On the Generalization of Representation Uncertainty in Earth Observation](https://arxiv.org/abs/2503.07082). It builds on and extends [Pretrained Visual Uncertainties](https://arxiv.org/abs/2402.16569), [GitHub repo](https://github.com/mkirchhof/url). 
 
+The documentation of this repo will be continuously updated.
+
 ## Installation
 
  `conda create env -f environment.yml`
