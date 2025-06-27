@@ -1,0 +1,83 @@
+{
+    "wandb":false, // Use wandb for logging
+    "wandb_project":"", // Wandb project name
+    "wandb_entity":"", // Wandb entity name
+    "task":"inference",//train uncertainties or inference or save_features
+    "pretraining_dataset":"bigearthnet",
+    "dataset":"mlrsnet",
+    "recall_per_dataset":{
+        "woody":"segmentation",
+        "waititu":"segmentation",
+        "sen12ms":"multilabel",
+        "bigearthnet":"multilabel",
+        "flair":"segmentation",
+        "eurosat":"onelabel",
+        "marida":"segmentation",
+        "treesat_aerial":"multilabel",
+        "treesat_sen200m":"multilabel",
+        "mlrsnet":"multilabel"
+    },
+    "recall_criterion_per_dataset":{
+        "woody": ["distance", "patching", "multilabel", "distribution_of_classes", "distribution_of_classes_with_patching"],
+        "waititu": ["distance", "patching", "multilabel", "distribution_of_classes", "distribution_of_classes_with_patching"],
+        "sen12ms": ["one", "all","distance"],
+        "bigearthnet": ["one", "all","distance"],
+        "flair": ["distance", "patching", "multilabel", "distribution_of_classes", "distribution_of_classes_with_patching"],
+        "marida":["distance", "patching", "multilabel", "distribution_of_classes", "distribution_of_classes_with_patching"],
+        "treesat_aerial":["one", "all","distance"],
+        "treesat_sen200m":["one", "all","distance"],
+        "mlrsnet":["one", "all","distance"]
+    },
+    "num_samples_per_dataset":{
+        "woody":{
+            "train":38656,
+            "val":4302,
+            "test":10622
+        },
+        "waititu":{
+            "train":1024,
+            "val":162,
+            "test":784
+        },
+        "sen12ms":{
+            "train":146300,
+            "val":16256,
+            "test":18106
+        },
+        "bigearthnet":{
+            "train":214016,
+            "val":23788,
+            "test":119825,
+        },
+        "flair":{
+            "train":47587,
+            "val":14125,
+            "test":15700
+        },
+        "marida":{
+            "train":47587,
+            "val":14125,
+            "test":359
+        },
+        "treesat_aerial":{
+            "train":33408,
+            "val":8448,
+            "test":4690,
+        },
+        "treesat_sen200m":{
+            "train":36096,
+            "val":9068,
+            "test":5043,
+        },
+        "mlrsnet":{
+            "train":87316,
+            "val":10927,
+            "test":10918
+        }
+    },
+    "dataset_root_path":"",
+    "checkpoint_root_path":null,
+    "device":"cuda:1",
+    "multilabel":false,
+    "num_classes":19
+}

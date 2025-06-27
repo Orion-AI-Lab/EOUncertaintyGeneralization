@@ -1,0 +1,20 @@
+{   "unc_module": "prednet",
+    "normalization":"standard",
+    "save_features_path":null,
+    "compare_with_cropped":false,//cropping or gaussian_noise or false
+    "min_cropping": 0.1,
+    "max_cropping": 0.75,
+    "gaussian_std":0.2,
+    "image_resize":false,
+    "features_root":null,
+    "model":"vit-large",
+    "feature_loader":false,
+    "spectral_type":"rgb",
+    "shuffle":false,
+    "augment": false,
+    "task_predictor_weights_path":"",
+    "task_num_classes":12,
+    "task_in_channels":3,
+    "task_image_size":256,
+    "image_size":120, //for BE inference only
+}

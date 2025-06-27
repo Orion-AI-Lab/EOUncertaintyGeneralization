@@ -1,0 +1,11 @@
+{
+    "batch_size":128,
+    "num_workers":4,
+    "webdataset":true,
+    "pin_memory":true,
+    "prefetch_factor":2,
+    "persistent_workers":false,
+    "threshold":0.1,//optional, for Sen12ms
+    "tile_size":224, //optional, for Woody
+    "tiling":false, //optional, for Woody
+}

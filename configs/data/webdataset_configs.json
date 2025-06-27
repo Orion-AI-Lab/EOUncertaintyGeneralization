@@ -1,0 +1,7 @@
+{
+    "webdataset_shuffle_size": 1000,
+    "webdataset_initial_buffer": 1000,
+    "webdataset_root_path":"",
+    "max_samples_per_shard":128,
+    "webdataset_write_processes":12
+}
